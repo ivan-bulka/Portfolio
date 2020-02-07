@@ -8,3 +8,6 @@ The project consists of parts:
 The final DataSet for the trainind and testing model consists only from 11 objects. 
 For real model, such amount of objects can not be used for training and testing models based on statistics and probability theory.
 All models are only the part of the test task and can not be used in the production due to the reason described above.
+
+The best result showed a recurrent network with 2 dense layers. But having more objects, the situation might be completely different and another model will be the best.
+Was not made lots of optimization in the best model, because it might be the garble of data due to the limited amount of data.
